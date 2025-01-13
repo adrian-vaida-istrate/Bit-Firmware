@@ -191,7 +191,7 @@ public:
 	static const std::unordered_map<Pet, RobotData> PetRobot;
 
 private:
-	std::array<bool, (uint8_t) Robot::COUNT + (uint8_t) Token::COUNT> unlocked = { false };
+	std::array<bool, (uint8_t) Robot::COUNT + (uint8_t) Token::COUNT> unlocked = { true };
 
 	void storeState();
 
